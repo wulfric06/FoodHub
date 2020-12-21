@@ -1,0 +1,23 @@
+{
+  "name": "food-hub",
+  "version": "1.0.0",
+  "description": "This is online food ordering website",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sumitkumar06/food-hub.git"
+  },
+  "author": "Sumit kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumitkumar06/food-hub/issues"
+  },
+  "homepage": "https://github.com/sumitkumar06/food-hub#readme"
+}

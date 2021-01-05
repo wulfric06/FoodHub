@@ -1,0 +1,373 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Bangers&family=Cedarville+Cursive&family=Comfortaa&family=Jura:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: palegoldenrod; */
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+/* Intro Section */
+#intro{
+    /* background-color: blueviolet; */
+    margin: 0;
+}
+
+#introin{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+#imgout img{
+    border-radius: 15px;
+    height: 542px;
+}
+
+#ordernow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+}
+
+#ordernow h1{
+    /* text-align: center; */
+    padding: 20px 0px;
+    padding-top: 100px;
+    color: #e13232;
+    font-size: 30px;
+}
+
+#ordernow h3{
+    color: #e13232;
+    padding: 16px 0px;
+}
+
+#ordernow a button{
+    text-align: center;
+    justify-content: center;
+    margin: 9px auto;
+    display: flex;
+    padding: 8px 15px;
+    font-family: cursive;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: #94340b;
+    color: white;
+    animation-name: bs;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    outline: none;
+    cursor: pointer;
+}
+
+#ordernow button:hover{
+    background-color:  #4d1700;
+}
+
+#ordernow a{
+    text-decoration: none;
+    outline: none;
+}
+
+@keyframes bs{  
+    0%{
+        transform: scale(1); 
+        background-color: violet;   
+    }
+    10%{
+        transform: scale(0.8);   
+        background-color: indigo; 
+    }
+    20%{
+        transform: scale(1);
+        background-color: blue;
+    }    
+    30%{
+        transform: scale(0.8);    
+        background-color: green;
+    }
+    40%{
+        transform: scale(1);
+        background-color: seagreen;
+    }
+    50%{
+        transform: scale(0.8);
+        background-color: orange;
+    }
+    60%{
+        transform: scale(1);
+        background-color: red;
+    }
+    70%{
+        transform: scale(0.8);
+        background-color: purple;
+    }
+    80%{
+        transform: scale(1);
+        background-color: yellowgreen;
+    }
+    90%{
+        transform: scale(0.8);
+        background-color: navy;
+    }
+    100%{
+        transform: scale(1);
+        background-color: brown;
+    }
+
+}
+
+/* Special Section */
+
+#special{
+    margin: 0px;
+    padding: 0;
+}
+
+#specialin{
+    margin: 20px 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#tagline{
+    padding: 10px 5px;
+}
+
+#tagline p{
+    font-size: 30px;
+    color: #5f2814;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+#specialfood{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid #0000ff33;
+}
+
+.special-card{
+    border: 2px solid yellowgreen;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    /* height: 340px; */
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.special-card p{
+    font-size: 15px;
+    color: seagreen;
+    padding: 5px 0px;
+}
+
+.special-card > h2{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.special-card span{
+    font-size: 18px;
+    color: #ccc70e;
+    font-weight: bold;
+}
+
+.pic img{
+    height: 160px;
+    width: 100%;
+}
+
+.buy{
+    width: 100%;
+    padding: 8px 0px;
+}
+
+.buy > button{
+    font-size: 15px;
+    font-weight: bold;
+    background-color:  #24e413;
+    width: 100%;
+    height: 40px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buy > button:hover{
+    background-color: #398832 ;
+}
+
+/* Category Section */
+#category{
+    margin: 0;
+    padding: 0;
+}
+
+#categoryin{
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#cattag{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #5f2814;
+}
+
+#catfood{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#catfood img{
+    height: 200px;
+    margin: 15px 15px;
+}
+
+#catfood img:hover{
+    opacity: 0.5;
+}
+
+/* Menu Section  */
+
+#menu{
+    margin: 0;
+    padding: 0;
+}
+
+#menuin{
+    margin: 15px 30px;
+}
+
+#menuin button{
+    width: 100%;
+    padding: 13px 0px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    background-color: #f5485f;
+    border: 2px solid black;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+#menuin button:hover{    
+    background-color:#d1031e;
+}
+
+/* Comment section */
+#comment{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    background-color: #262524;
+}
+
+#comment > #comin{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#comment > #comin > #formout{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    margin-top: 20px;
+    padding: 25px 35px;
+    border: 1px solid rgb(113, 85, 139);
+    border-radius: 2px;
+}
+
+#comment > #comin > #formout p{
+    color: rgb(113, 85, 139);
+    font-size: 25px;
+    width: 100%;
+}
+
+#suggestionform{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+#suggestionform input ,
+#suggestionform textarea{
+    padding: 10px 10px;
+    margin: 8px 0px;
+    font-size: 18px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid rgb(113, 85, 139);
+    background-color: #262524;
+    color: rgb(113, 85, 139);
+}
+
+#suggestionform > #button{
+    width: 10%;
+    background-color: #e68b0c;
+    border-color: #e68b0c;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+    color: #262524;
+    cursor: pointer;
+    color: white;
+}
+
+#suggestionform > #button:hover{
+    background-color: #b66a00;
+}
+
+#cmntbtn{
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 0px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    background-color: #e68b0c;
+    border: 2px solid #e68b0c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+#cmntbtn:hover{
+    background-color: #b66a00;
+}
+

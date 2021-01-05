@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Bangers&family=Cedarville+Cursive&family=Comfortaa&family=Jura:wght@600&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Cedarville', cursive;
+    font-family: 'jura', cursive;*/
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: palegoldenrod; */
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+/* Heading Section */
+#heading-section{
+    background-color: rgb(22, 21, 21);
+    color: white;
+    display: flex;
+    height: 250px;
+    margin: 0px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'jura', cursive;   
+}
+
+#head-in{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading{
+    margin: 10px 0px;
+    font-size: 25px;
+}
+
+#path{
+    margin: 5px;
+    font-size: 18px;
+}
+
+#path a {
+    text-decoration: none;
+    color: white;
+}
+
+#path a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#path img {
+    height: 20px;
+    filter: invert();
+    margin: -3px;
+}
+
+/* Come Section */
+#comelayout{
+    /* background-color: yellow; */
+    height: 600px;
+    font-family: 'jura';
+}
+
+#come-in{
+    margin: 60px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 20px;
+    height: 540px;
+}
+
+#place{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+    height: 100%;
+}
+
+#place span{
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #5190bb;
+    padding: 20px 5px;
+    padding-top: 50px;
+}
+
+#place h2{
+    font-size: 35px;
+    padding: 10px 5px;
+    letter-spacing: 1px;
+    color: #867361;
+    word-spacing: 4px;
+}
+
+#place h4{
+    padding: 10px 5px;
+    font-size: 20px;
+    color: #5190bbb8;
+    letter-spacing: 2px;
+}
+
+.add{
+    display: flex;
+    font-size: 16px;
+    color: #262524;
+    padding: 10px 5px;
+}
+
+.add img{
+    margin-right: 10px;
+    height: 20px;;
+}
+
+
+#map{
+    margin: 0px 25px;
+    width: 90%;
+    height: 100%;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Contact section */
+#comment{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    background-color: #262524;
+}
+
+#comment > #comin{
+    display: flex;
+    width: 100%;
+}
+
+#comment > #comin > #formout{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 40px 35px;
+    width: 100%;
+    border: 1px solid rgb(113, 85, 139);
+    border-radius: 2px;
+}
+
+#comment > #comin > #formout p{
+    color: rgb(113, 85, 139);
+    font-size: 35px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+#suggestionform{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+#suggestionform input ,
+#suggestionform textarea{
+    padding: 10px 10px;
+    margin: 8px 0px;
+    font-size: 18px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid rgb(113, 85, 139);
+    background-color: #262524;
+    color: rgb(113, 85, 139);
+}
+
+#suggestionform > #button{
+    width: 10%;
+    background-color: #e68b0c;
+    border-color: #e68b0c;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+    color: #262524;
+    cursor: pointer;
+}
+
+#suggestionform > #button:hover{
+    background-color: #b66a00;
+}

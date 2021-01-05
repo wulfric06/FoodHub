@@ -1,0 +1,361 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Bangers&family=Cedarville+Cursive&family=Comfortaa&family=Jura:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: palegoldenrod;
+    /* background-color: #fc4f4f; */
+    font-family: 'Baloo Bhai 2', cursive;
+    /* font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Cedarville', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'jura', cursive;*/
+}
+
+#welcomemsg{
+    margin: 10px 40px;
+    padding: 5px;
+    /* text-align: center; */
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+}
+
+hr{
+    opacity: 1;
+}
+
+#top{
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    margin: 34px 0px;
+    height: 55px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(190 47 47);
+}
+
+#logo{
+    /* width: 20%; */
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0c0670;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    /* background-color: green; */
+    font-family: 'bangers', sans-serif;
+}
+
+#logo a{
+    text-decoration: none;
+    color: #0c0670;
+}
+
+#navb{
+    /* background-color: yellow; */
+    margin: 25px;
+}
+
+#pro{
+    /* width: 20%; */
+    margin: 0;
+}
+
+#container #pro img{
+    height: 40px;
+    margin: 5px 10px;
+    transition: transform 2s;
+}
+
+#container #pro img:hover{
+    transform: scale(2)  rotate(360deg);
+}
+
+
+
+/* Naviagtion Bar: List Styling */
+#navbar ul{
+    display: flex;
+    font-family: sans-serif;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a:active{
+    color: rgb(145, 255, 0);
+    text-decoration: underline;
+}
+
+/* Frst Section */
+
+#first{
+    background-color: red;
+    height: 500px;
+}
+
+
+
+/* Reach Section */
+#reach{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -60px;
+    height: 135px;
+    width: 104.44%;
+}
+
+#reach-box{
+    display: flex;
+    justify-content: center;
+    width: 34%;
+}
+
+#locbox{
+    display: flex;
+    margin: 26px 0px;
+    height: 137px;
+    width: 100%;
+    padding: 25px 0px;
+    padding-left: 180px;
+}
+
+#emailbox{
+    display: flex;
+    margin: 26px 0px;
+    border-left: 1px solid blueviolet;
+    height: 137px;
+    width: 100%;
+    padding: 25px 0px;
+    padding-left: 180px;
+}
+
+#followbox{
+    display: flex;
+    margin: 26px 0px;
+    border-left: 1px solid rgb(146, 98, 190);
+    height: 137px;
+    width: 100%;
+    padding: 25px 115px;
+}
+
+#reach-box-info{
+    margin: 0;
+}
+
+#reach-box-info h2{
+    color: #5190bb;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;   
+}
+
+#reach-box-info p a{
+    text-decoration: none;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#reach-box-info p a:hover{
+    color: blue;
+}
+
+#imgbox img{
+    height: 42px;
+    margin: 0px -50px;
+}
+
+#sociallinks img{
+    height: 40px;
+    animation-name: squash;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#sociallinks img:hover{
+    filter: invert( );
+    background-color: white;
+    border-radius: 15px;
+}
+
+/* Animation of Squashing */
+
+@keyframes squash{  
+    0%{
+        transform: scale(1);    
+    }
+    10%{
+        transform: scale(0.8);    
+    }
+    20%{
+        transform: scale(1);
+    }    
+    30%{
+        transform: scale(0.8);    
+    }
+    40%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.8);
+    }
+    60%{
+        transform: scale(1);
+    }
+    70%{
+        transform: scale(0.8);
+    }
+    80%{
+        transform: scale(1);
+    }
+    90%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1);
+    }
+
+}
+
+
+
+
+
+/* Katering  section */
+#info{
+    /* background-color: brown; */
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#infoin{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 80px;
+}
+
+#katout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 200px;
+    border-right: 1px solid #5190bb;
+}
+#katering,
+#join{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+#katering h2,
+#join h2{
+    padding: 5px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+#katering p,
+#join p{
+    padding: 2px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#katering a,
+#join a{
+    padding: 10px;
+}
+
+#katering a button,
+#join a button{
+    padding: 5px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(178, 140, 214);
+}
+
+#katering a button:hover,
+#join a button:hover{
+   background-color: rgb(136, 117, 155);
+}
+
+#joinout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 200px;
+}
+
+/* Footer */
+#bottom{
+    /* background-color: blue; */
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+}
+
+#bottom p a {
+    text-decoration: none;
+    color: black;
+}
+
+#bottom p a:hover {
+    color: blue;
+}

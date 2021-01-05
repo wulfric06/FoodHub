@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Bangers&family=Cedarville+Cursive&family=Comfortaa&family=Jura:wght@600&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Cedarville', cursive;
+    font-family: 'jura', cursive;*/
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: palegoldenrod; */
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+/* Heading Section */
+#heading-section{
+    background-color: rgb(22, 21, 21);
+    color: white;
+    display: flex;
+    height: 250px;
+    margin: 0px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'jura', cursive;   
+}
+
+#head-in{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading{
+    margin: 10px 0px;
+    font-size: 25px;
+}
+
+#path{
+    margin: 5px;
+    font-size: 18px;
+}
+
+#path a {
+    text-decoration: none;
+    color: white;
+}
+
+#path a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#path img {
+    height: 20px;
+    filter: invert();
+    margin: -3px;
+}
+
+
+/* Meal Section */
+
+#meal{
+    margin: 0;
+    padding: 0;
+}
+
+#meal-in{
+    display: flex;
+    margin: 10px 20px;
+    justify-content: space-between;
+}
+
+#pricecat{
+    width: 20%;
+}
+
+#listtag, #pricetag{
+    font-size: 20px;
+    border-bottom: 2px solid #e68b0c;
+    padding: 0px 5px;
+    color: #6699bb;
+}
+
+#pricelist{
+    margin: 5px 0px;
+}
+
+#pricelist > ul {
+    list-style: none;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#pricelist > ul  a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;    
+}
+
+#pricelist > ul  a:hover{
+    color: blue;
+}
+
+#pricelist > ul >li{
+    padding: 2px 0px;
+}
+
+#pricefilter{
+    margin: 20px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#pricefilter input{
+    margin: 5px 0px;
+    cursor: e-resize;
+}
+
+.price_label{
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price_label button {
+    background-color: #e68b0c;
+    outline: none;
+    border: 1px solid #a7a724;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.price_label button:hover{
+    background-color: #ac6708;
+}
+
+.price_label p{
+    padding: 10px 20px;
+}
+
+.price_label p span{
+    color: #e68b0c;
+    font-weight: bold;
+}
+
+#itemcat{
+    width: 75%;
+}
+
+#itemtag{
+    font-size: 20px;
+    border-bottom: 2px solid #e68b0c;
+    padding: 0px 5px;
+    color: #6699bb;
+}
+#items{
+    margin: 5px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-card{
+    border: 1px solid #e68b0c;
+    padding: 1px 1px;
+    margin: 0px 1px;
+    /* height: 310px; */
+    width: 243px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-card p{
+    font-size: 15px;
+    color: seagreen;
+    padding: 5px 0px;
+}
+
+.item-card > h2{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.item-card span{
+    font-size: 18px;
+    color: #ccc70e;
+    font-weight: bold;
+}
+
+.pic img{
+    height: 200px;
+    width: 100%;
+}
+
+.buy{
+    width: 100%;
+    padding-top: 15px;
+}
+
+.buy > button{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #3e3c3a;
+    color: white;
+    width: 100%;
+    height: 40px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buy > button:hover{
+    background-color: #398832 ;
+}
+

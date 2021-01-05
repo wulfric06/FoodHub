@@ -82,8 +82,38 @@ app.post('/', (req, res) => {
         // else if(em == lusername && pass == lpassword){
         //     res.sendFile('home.html', { root: __dirname + '/static' })
         // }
-        else {
-            res.send(`
+        // else {
+        //     res.send(`
+        // <!DOCTYPE html>
+        // <html lang="en">
+        // <head>
+        // <meta charset="UTF-8">
+        // <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        // <title>Login Failed</title>
+        // <style>
+        // h1{
+        //                 text-align: center;
+        //                 font-size: 30px;
+        //             }
+        //             p{
+        //                 text-align: center;
+        //                 font-size: 18px;
+        //             }
+        //             a{
+        //                 text-decoration: none;
+        //             }
+        //         </style>
+        //     </head>
+        //     <body>
+        //         <h1>Invalid username or password</h1>
+        //         <p><a href="/">try again...</a></p>
+        //         <p><a href="/signup">or signup first...</a></p>
+        //     </body>
+        //     </html>   
+        //     `)
+        // }
+    }).catch(()=>{
+        res.send(`
         <!DOCTYPE html>
         <html lang="en">
         <head>
@@ -111,13 +141,14 @@ app.post('/', (req, res) => {
             </body>
             </html>   
             `)
-        }
+
     })
     // var per = db.collection('users').find({username: req.body.username})
     // console.log(" from database out " + rusername + " " + rpassword)
     // console.log(" from user out " + lusername + " "+ lpassword)
 
     // res.sendFile('home.html', { root: __dirname + '/static' })
+    
 });
 
 app.get('/signup', (req, res) => {
